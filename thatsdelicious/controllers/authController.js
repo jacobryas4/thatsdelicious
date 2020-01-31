@@ -22,3 +22,11 @@ exports.isLoggedIn = (req, res, next) => {
     req.flash('error', 'Oops! You must be logged in to do that!')
     res.redirect('/login')
 }
+
+exports.forgot() = async (req, res) => {
+    // see if user exists
+
+    // set reset tokens and expiry on their account
+
+    
+}
