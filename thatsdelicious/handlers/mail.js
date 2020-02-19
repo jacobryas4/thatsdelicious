@@ -24,7 +24,7 @@ exports.send = async (options) => {
     const text = htmlToText.fromString(html)
     
     const mailOptions = {
-        from: `Jacob Bryant <noreply@gmail.com>`,
+        from: `Jacob Bryant <noreply@delicious-node.herokuapp.com>`,
         to: options.user.email,
         html,
         text,
